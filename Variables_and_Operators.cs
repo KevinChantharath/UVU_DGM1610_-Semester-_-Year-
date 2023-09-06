@@ -89,3 +89,21 @@ namespace MyApplication
   }
 }
 
+#Assign Operators-Their purpose to to assign values to variables
+#When this code is executed it will display x which will have the value 5
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int x = 5;
+      Console.WriteLine(x);  
+     }
+  }
+}
+
+#
