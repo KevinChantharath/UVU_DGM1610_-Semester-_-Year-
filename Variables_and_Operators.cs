@@ -19,7 +19,7 @@ namespace MyApplication
 }
  
  #Integer Variable- stores whole numbers that aren't decimals like 100 or -100
- #When code is executed it will display the number 7
+ #When code is executed it will display myNum value
 
  using System;
 
@@ -54,3 +54,19 @@ namespace MyApplication
   }
 }
 
+#Float Variables store floating point numbers or numbers with decimals for example 0.99, 1.99 etc. 
+#When code is executed display myDoubleNum value
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      double myDoubleNum = 6.02D;
+      Console.WriteLine(myDoubleNum);  
+     }
+  }
+}
