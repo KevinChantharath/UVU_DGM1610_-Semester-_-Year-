@@ -35,3 +35,22 @@ namespace MyApplication
   }
 }
 
+#Boolean Variables store values of 2 states true or false
+#When code is executed have options true or false 
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      bool isPlayingGamesFun = true;
+      bool isHomeworkFun = false;
+      Console.WriteLine(isPlayingGamesFun);   // Outputs True
+      Console.WriteLine(isHomeworkFun);   // Outputs False    
+    }
+  }
+}
+
