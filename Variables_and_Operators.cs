@@ -70,3 +70,22 @@ namespace MyApplication
      }
   }
 }
+
+#Operators- operators perform operations on values and variables for example adding, subtraction multiplication, etc.
+#Arithmetic Operator-used for common mathmematical operations
+#After code is executed display the value of x which will be 100 after they add 50 and 50 together
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int x = 50 + 50;
+      Console.WriteLine(x);  
+     }
+  }
+}
+
