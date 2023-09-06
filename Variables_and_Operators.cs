@@ -19,4 +19,19 @@ namespace MyApplication
 }
  
  #Integer Variable- stores whole numbers that aren't decimals like 100 or -100
- #
+ #When code is executed it will display the number 7
+
+ using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 15;
+      Console.WriteLine(myNum);
+     }
+  }
+}
+
