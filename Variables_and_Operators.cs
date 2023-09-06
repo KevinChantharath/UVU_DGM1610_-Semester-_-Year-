@@ -106,4 +106,21 @@ namespace MyApplication
   }
 }
 
-#
+#Comparison Operators-used to compare two values or variables
+#Will display the code as true because the value x is greater than y
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int x = 7;
+      int y = 5;
+      Console.WriteLine(x > y); // returns True because 7 is greater than 5
+     }
+  }
+}
+
