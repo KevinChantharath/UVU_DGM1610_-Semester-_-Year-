@@ -1,4 +1,4 @@
-// Using int and string variables dislpay name and age 
+// Using int,string, and float variables dislpay name,age, and health
 
 using System;
 
@@ -6,12 +6,14 @@ class Program
 {
     static void Main()
     {
-        // shows name and age
+        //name,age, and health variables
         string name = "Bob";
         int age = 15;
+        float health = 3.5f; 
 
-        // Display the name and age on the console
+        // Display the name, age, and health
         Console.WriteLine("Name: " + name);
         Console.WriteLine("Age: " + age);
-    }
+        Console.WriteLine("Health: " + health);
+        }
 }
