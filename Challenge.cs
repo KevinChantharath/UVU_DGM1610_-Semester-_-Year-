@@ -7,8 +7,8 @@ class Program
     static void Main()
     {
         // shows name and age
-        string name = "John";
-        int age = 30;
+        string name = "Bob";
+        int age = 15;
 
         // Display the name and age on the console
         Console.WriteLine("Name: " + name);
