@@ -2,12 +2,16 @@
 //this string writes out the name bob for me
 
 using System;
-					
-public class Program
+
+namespace MyApplication
 {
-	public static void Main(string[] args)
-	{
-		Console.WriteLine("Bob");
-	}
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string name = "Bob";
+      Console.WriteLine(name);  
+     }
+  }
 }
 
