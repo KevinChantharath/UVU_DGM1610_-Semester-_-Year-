@@ -1,17 +1,17 @@
-//Intro 
-//this string writes out the name bob for me
+// Using int and string variables dislpay name and age 
 
 using System;
 
-namespace MyApplication
+class Program
 {
-  class Program
-  {
-    static void Main(string[] args)
+    static void Main()
     {
-      string name = "Bob";
-      Console.WriteLine(name);  
-     }
-  }
-}
+        // shows name and age
+        string name = "John";
+        int age = 30;
 
+        // Display the name and age on the console
+        Console.WriteLine("Name: " + name);
+        Console.WriteLine("Age: " + age);
+    }
+}
