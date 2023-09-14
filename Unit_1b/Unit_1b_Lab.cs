@@ -13,14 +13,10 @@ using System;
       {
         Console.WriteLine("It's hot outside remember to stay hydrated"); //will display this line if greater than 30
       } 
-      else if (temp < 30) 
+      else (temp < 30) 
       {
         Console.WriteLine("Enjoy the Pleasant weather outside"); //will dispaly this line if less than 30
       } 
-      else 
-      {
-        Console.WriteLine("Perfect Weather"); // displays if they put in 30 exactly 
-      }
             
         }
     }
