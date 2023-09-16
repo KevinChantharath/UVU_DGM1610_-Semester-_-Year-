@@ -18,11 +18,11 @@ using System;
                 }
                 else if (temp >= 15 && temp <= 20)
                 {
-                    Consol.WriteLine("It might be a bit breezy take a coat") //if number is >= 15 and <= 20 display this message
+                    Consol.WriteLine("It might be a bit breezy take a coat"); //if number is >= 15 and <= 20 display this message
                 }
                 else
                 {
-                    Console.WriteLine("It's freezing outside dress for the snow") // if number is anything else display this message
+                    Console.WriteLine("It's freezing outside dress for the snow"); // if number is anything else display this message
                 }
         }
 }
