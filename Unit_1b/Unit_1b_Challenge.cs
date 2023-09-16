@@ -6,14 +6,15 @@ using System;
 	    {   
 		
 		    Console.WriteLine("Enter the current temperature in celsius"); // Enter temp in Celcius
-		    Compare(26,30, 25);
-		
-	    }
-
-			
-public void Compare (int value, int value2, int value3)
-	{
-	if(value <= value2 && value >= value3)
-		Console.WriteLine("Enjoy the Pleasant Weather");
-	}
+                int temp = 25;
+                
+                if (temp >= 31)
+                {
+                    Console.WriteLine("Drink some water it's hot outside"); //if number is higher than 30 display this message
+                }
+                else if (temp >= 25 && temp <= 30)
+                {
+                    Console.WriteLine("Enjoy the pleasant weather outside"); //if number is >= 25 and <= 30 display this message
+                }
+        }
 }
