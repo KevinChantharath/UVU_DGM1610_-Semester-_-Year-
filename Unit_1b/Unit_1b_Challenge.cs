@@ -29,7 +29,7 @@ using System;
         }
 }
 
-//Enhancing Testing Code
+//Normal test code
 
  using System;
     
@@ -62,7 +62,26 @@ using System;
       }
 
 
+
+
+//Enhancing test code asking subject wtih switches
+    
+
+
+        Console.WriteLine("Enter your favorite subject 1 = math 2 = science 3 = english")// tell them to enter subject using numbers
+
+      int subject = 1;
+      switch (subject) 
+      {
+        case 1:
+          Console.WriteLine("Math is fun when you understand it"); //display if they enter 1 for math
+          break;
+        case 2:
+          Console.WriteLine("Science is very interesting and fun"); //display if they enter 2 for sceience
+          break;
+        case 3:
+          Console.WriteLine("You can do beatiful things with words"); //display if they enter 3 for english
+          break;
+      }
         }
     }
-
-    
