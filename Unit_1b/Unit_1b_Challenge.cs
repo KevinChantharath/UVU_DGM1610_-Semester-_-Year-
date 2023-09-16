@@ -16,5 +16,13 @@ using System;
                 {
                     Console.WriteLine("Enjoy the pleasant weather outside"); //if number is >= 25 and <= 30 display this message
                 }
+                else if (temp >= 15 && temp <= 20)
+                {
+                    Consol.WriteLine("It might be a bit breezy take a coat") //if number is >= 15 and <= 20 display this message
+                }
+                else
+                {
+                    Console.WriteLine("It's freezing outside dress for the snow") // if number is anything else display this message
+                }
         }
 }
