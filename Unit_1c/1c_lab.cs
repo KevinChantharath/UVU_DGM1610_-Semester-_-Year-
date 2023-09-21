@@ -1,13 +1,19 @@
 using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+        Console.Write("Enter a positive number into the pyramid");
+        int numRows = int.Parse(Console.ReadLine()); // allows the user to input a number
 
-  public class Program
-  {
-    public static void Main()
-    {
-		 Console.WriteLine("Enter a positive number into the pyramid");
-     int numRows = int.Parse(Console.ReadLine());
-			 
-      for (int i = 1; i <= numRows; i++) //displays the number you inputed
-        Console.WriteLine(i); // Prints out numbers and adds row
-    }
-  }
+        for (int i = 1; i <= numRows; i++) //inputs users number
+        {
+            for (int j = 1; j <= i; j++) // adds the rows
+            {
+                Console.Write(i); // writes out numbers
+            }
+            Console.WriteLine(); // writes out rows
+        }
+	}
+}
