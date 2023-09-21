@@ -17,3 +17,5 @@ public class Program
         }
 	}
 }
+
+//fixed after looking at this example in class
