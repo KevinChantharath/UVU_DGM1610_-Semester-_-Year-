@@ -1,12 +1,13 @@
 using System;
 
-  class Program
+  public class Program
   {
-    static void Main(string[] args)
+    public static void Main()
     {
-      for (int i = 0; i < 5; i++) //puts in integers from 0 to 5
-      {
-        Console.WriteLine(i); // prints out number 0 to 5
-      }    
+		 Console.WriteLine("Enter a positive number into the pyramid");
+     int numRows = int.Parse(Console.ReadLine());
+			 
+      for (int i = 1; i <= numRows; i++) //displays the number you inputed
+        Console.WriteLine(i); // Prints out numbers and adds row
     }
   }
