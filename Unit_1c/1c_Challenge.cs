@@ -1,7 +1,7 @@
 //Code for Random Number Generator
 
-using System:
-
+using System;
+					
 public class Program
 {
 	public static void Main()
@@ -20,6 +20,20 @@ public class Program
 					Console.WriteLine("Try guessing higher");
 					break;
 				}
+				
+				else if (userGuess>randomNumber)
+				{
+					Console.WriteLine("Try guessing lower");
+					break;
+				}
+			}
+			
+			if (userGuess==randomNumber)
+			{
+				Console.WriteLine("You guessed the number! You got it in" + attempt + "attempts");
+			}
+
+            
 
 
 
