@@ -54,8 +54,14 @@ public class Program
 			Console.Write("Enter your 3 favorite foods: ");
 			favoriteFoods[i] = Console.Readline();
 		}   
+			Console.WriteLine("These are your 3 favorite Foods?");
+			foreach (string food in favoriteFoods)
+			{
+				Console.WriteLine("I love " + food);
+			}
+	}
+}
 
-			
 
 
 
