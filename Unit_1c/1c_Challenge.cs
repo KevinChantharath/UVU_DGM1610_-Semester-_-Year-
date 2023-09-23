@@ -39,7 +39,24 @@ public class Program
 	}
 }
 
-            
+//Favorite Foods code
+
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+		string[] favoriteFoods = new string[3];
+
+		for (int i = 0; i < 3; i++)
+        {
+			Console.Write("Enter your 3 favorite foods: ");
+			favoriteFoods[i] = Console.Readline();
+		}   
+
+			
+
 
 
 
