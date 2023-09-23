@@ -47,17 +47,17 @@ public class Program
 {
     public static void Main()
     {
-		string[] favoriteFoods = new string[3];
+		string[] favoriteFoods = new string[3]; //has a array for 3 items
 
-		for (int i = 0; i < 3; i++)
+		for (int i = 0; i < 3; i++)  
         {
-			Console.Write("Enter your 3 favorite foods: ");
-			favoriteFoods[i] = Console.Readline();
+			Console.Write("Enter your 3 favorite foods: "); //displays message for favorite foods
+			favoriteFoods[i] = Console.Readline(); //allows user inputs
 		}   
-			Console.WriteLine("These are your 3 favorite Foods?");
+			Console.WriteLine("These are your 3 favorite Foods?"); //displays message for food
 			foreach (string food in favoriteFoods)
 			{
-				Console.WriteLine("I love " + food);
+				Console.WriteLine("I love " + food); //displays messasge for every food item
 			}
 	}
 }
